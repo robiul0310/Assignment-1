@@ -222,3 +222,24 @@ padding: 24px;
     display: block; 
 }
 
+.final-stage{  
+margin: 0 auto;
+height: 80px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+gap: 24;
+padding: 80px 40px 80px 40px;
+border-radius: 15px;
+background-color: antiquewhite;
+
+
+}
+button{
+    background-color: green;
+    border-radius: 1px;
+}
+.final-stage p{
+    color: gray;
+}
