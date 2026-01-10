@@ -70,8 +70,15 @@ button:hover{
 ul li a:hover{
     background-color: aqua;
 }
+
 .hero-section {
-   
+    height:0 auto;
+    width: 0 auto;
+  
+  
+
+
+
  
     
     background-size: cover;    
@@ -90,7 +97,7 @@ ul li a:hover{
     align-items: center;    
      
     text-align: center;
-    background-color:grey;              
+    background-color:grey;               
 }
 .highlight{
     color: green;
@@ -104,7 +111,19 @@ ul li a:hover{
     
 }
 
+.hero-content h1{
+ 
+font-style: Bold;
+font-size: 72px;
+font-weight: 700;
+line-height: 84px;
 
+text-align: center;
+
+}
+.hero-content{
+    padding: 120px 70px 120px 80px;
+}
 
     
  
@@ -112,5 +131,94 @@ ul li a:hover{
     line-height: 24px;
     font-size: 18px;
     font-weight: 400;
+}
+.section-container{
+    text-align: center;
+    
+}
+.section-container p{
+    font-size: small;
+    color: gray;
+
+}
+.section-container h2{
+    font-size: 2em;
+}
+.card-container{
+    display: flex;
+    gap: 120px;
+    border: 50px;
+    justify-content: center;
+  
+}
+.card{
+   
+    border:  solid plum;
+
+    /
+    border-radius: 10px;
+    box-shadow:0 10px 10px 10px gray ;
+    
+width:150px;
+height: 150px;
+
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+gap:3px;
+padding: 24px;
+
+
+}
+.card img{
+   width: 25px;           
+    height: auto;
+    object-fit: contain;
+}
+
+.solution-section {
+    display: flex; 
+    align-items: center; 
+    justify-content: space-between;
+    gap: 60px; 
+    padding: 120px; 
+    max-width: 1360px; 
+    margin: 0 auto;
+}
+
+.image-content {
+    flex: 1; 
+}
+.image-content img{
+    border-radius: 15px;
+    border-color: aquamarine;
+    box-shadow: 0 10px 10px 10px;
+}
+
+.text-content {
+    flex: 1; 
+    text-align: left; 
+}
+.text-content h1{
+    font: size 1.5em;;
+}
+.image-content img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+.features-list { 
+    display: flex;
+    flex-direction: column !important; 
+    gap: 15px;
+    text-align: left;
+    margin-top: 20px;
+}
+
+.features-list p {
+    margin: 0;
+    display: block; 
 }
 
