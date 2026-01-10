@@ -1,0 +1,115 @@
+nav{
+    display: flex;
+    /* justify-content:center; */
+    align-items: center;
+    
+  
+}
+.logo-container{
+    display: flex;
+    align-items: center;
+
+}
+.logo-icon{
+    height: 42px;
+    width: 42px;
+    display: flex;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: yellowgreen;
+}
+.logo-icon img{
+    width: 100%;
+    height: auto;
+    
+} 
+
+.logo-text {
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    line-height: 1;
+    font-size: small;
+}
+.KV{
+    font-size: 50px;
+    color: green;
+    padding: 10px;
+
+} 
+.full-name {
+  
+    font-size: small;
+}
+ul{
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+    gap: 20px;
+}
+.li{
+    text-align: center;
+    margin: 0 auto;
+}
+button{
+    background-color: green;
+    color: aliceblue;
+    border-radius: 15px;
+
+}
+button:hover{
+    color:chartreuse;
+}
+.li ul a{
+    color: aqua;
+}
+.li  li a{
+    text-decoration: none;
+    color: black;
+}
+ul li a:hover{
+    background-color: aqua;
+}
+/* .hero-section {
+   
+ 
+    
+    background-size: cover;    
+    background-position: center; 
+    background-repeat: no-repeat;
+    
+    /* height:379px;
+    width:1360px; */
+    .hero-section 
+    padding-top: 150px;   
+    padding-bottom: 150px;
+
+                   
+    display: flex;
+    flex-direction: column;      
+    justify-content: center; 
+    align-items: center;    
+     
+    text-align: center;
+    color: white;               
+}
+.highlight{
+    color: green;
+}
+.badge{
+    color: green;
+    background-color: aliceblue;
+    padding: 9px;
+    font-size: small;
+    border-radius: 10px;
+    
+}
+
+    color: aqua;
+ 
+.hero-content p{
+    line-height: 24px;
+    font-size: 18px;
+    font-weight: 400;
+} */
+
