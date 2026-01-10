@@ -70,7 +70,7 @@ button:hover{
 ul li a:hover{
     background-color: aqua;
 }
-/* .hero-section {
+.hero-section {
    
  
     
@@ -78,9 +78,8 @@ ul li a:hover{
     background-position: center; 
     background-repeat: no-repeat;
     
-    /* height:379px;
-    width:1360px; */
-    .hero-section 
+    
+    
     padding-top: 150px;   
     padding-bottom: 150px;
 
@@ -91,7 +90,7 @@ ul li a:hover{
     align-items: center;    
      
     text-align: center;
-    color: white;               
+    background-color:grey;              
 }
 .highlight{
     color: green;
@@ -105,11 +104,13 @@ ul li a:hover{
     
 }
 
-    color: aqua;
+
+
+    
  
 .hero-content p{
     line-height: 24px;
     font-size: 18px;
     font-weight: 400;
-} */
+}
 
