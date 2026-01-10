@@ -200,8 +200,13 @@ padding: 24px;
     flex: 1; 
     text-align: left; 
 }
-.text-content h1{
+.text-content h1 {
     font: size 1.5em;;
+    
+
+}
+.badge.white-text{
+    color: white;
 }
 .image-content img {
     max-width: 100%;
@@ -240,6 +245,50 @@ button{
     background-color: green;
     border-radius: 1px;
 }
-.final-stage p{
-    color: gray;
+.footer {
+    background-color: #05162a;
+    color: white;
+    padding: 60px 120px 20px 120px; 
+    margin-top: 100px;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    /* border-bottom: 1px solid rgba(255, 255, 255, 0.1);  */
+    padding-bottom: 40px;
+}
+
+.footer-logo img {
+    height: 40px; 
+}
+
+.footer-social p {
+    font-weight: bold;
+    margin-bottom: 15px;
+    font-size: 16px;
+}
+
+.social-icons {
+    display: flex;
+    gap: 15px;
+}
+
+.social-icons a {
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    
+}
+
+.social-icons a:hover {
+    opacity: 1;
+}
+
+.footer-bottom {
+    text-align: center;
+    padding-top: 20px;
+    font-size: 14px;
+    opacity: 0.6;
 }
